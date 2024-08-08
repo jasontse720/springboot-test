@@ -23,4 +23,10 @@ public class DemoApplication {
 		return "hello spring boot - Java World!";
 	}
 
+	@GetMapping("/hiro")
+	public String hiro(){
+		return "Hi, my name is Hiro, I am 10 years old.";
+	}
+
+
 }

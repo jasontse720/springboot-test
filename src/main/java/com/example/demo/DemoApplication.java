@@ -18,4 +18,9 @@ public class DemoApplication {
 		return "Hello World!";
 	}
 
+	@GetMapping("/java")
+	public String outputJava(){
+		return "hello spring boot - Java World!";
+	}
+
 }
